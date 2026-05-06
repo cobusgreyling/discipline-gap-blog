@@ -1,12 +1,12 @@
+![The Discipline Gap](images/discipline_gap.png)
+
+
 # Configured, not coded. The engineering discipline gap in agent development
 
 We replaced thousands of lines of orchestration code with a paragraph of English, and quietly walked away from the rigour that used to come with it.
 
 I have been thinking about this for a while, and a thread keeps surfacing across the agent posts I have written this year...
 
-> [Anthropic Says Coding Agents Are Becoming the Universal Everything Agent](https://cobusgreyling.medium.com)
->
-> Anthropic's vision positions coding AI Agents...
 
 The integration layer collapsed...CLI replaced MCP for most everyday tasks, because the bridge to the tool already existed.
 
@@ -20,9 +20,8 @@ But there is a side-effect I keep seeing in the wild, and it is the part of this
 
 **When the artefact moves from code to configuration, the engineering discipline does not move with it.**
 
-> [Universal Agents](https://cobusgreyling.medium.com)
->
-> I wanted to write a definitive piece on Universal Agents. I cannot help but think that universal...
+![The Discipline Gap](images/seq.png)
+
 
 ## What I mean by configured, not coded
 
@@ -50,6 +49,9 @@ The artefact looks like prose, so it gets edited like prose. But it behaves like
 ## Where the gap shows up
 
 Three places I see it most often.
+
+![The Discipline Gap](images/diff.png)
+
 
 ### The system prompt as the dumping ground
 
@@ -79,9 +81,6 @@ The same things we already know how to do, applied to the configuration layer.
 
 **Prune ruthlessly.** Every paragraph in a system prompt is competing for attention with every other paragraph. More words is not more discipline.
 
-> [The Rise of AI Harness Engineering](https://cobusgreyling.medium.com)
->
-> AI Agents needed SDKs, then Frameworks, then Scaffolding. Now they need a Harness.
 
 ## The model is rented, the harness is owned
 
@@ -91,4 +90,3 @@ If we treat that artefact as casual configuration, we lose the engineering rigou
 
 The collapse is real. The discipline gap is the bill that comes with it.
 
-![The Discipline Gap](images/discipline_gap.png)
