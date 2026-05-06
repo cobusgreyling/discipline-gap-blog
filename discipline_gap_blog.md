@@ -1,4 +1,4 @@
-![The Discipline Gap](images/discipline_gap.png)
+![The Discipline Gap](images/gap.png)
 
 
 # Configured, not coded. The engineering discipline gap in agent development
